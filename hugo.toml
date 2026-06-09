@@ -1,0 +1,4 @@
+baseURL = 'https://eklem.github.io/portfolio/'
+locale = 'en-us'
+title = 'Espen Klem - Portfolio'
+theme = 'beautifulhugo'
