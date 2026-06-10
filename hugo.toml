@@ -1,7 +1,18 @@
 baseURL = 'https://eklem.github.io/portfolio/'
 locale = 'en-us'
-title = 'Espen Klem - Portfolio'
+title = 'Espen Klem'
 theme = 'beautifulhugo'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+navShort = true
+
+[Params]
+  mainSections = ['projects']
+  since = 2018
+  [Params.author]
+    github = 'eklem'
+    linkedin = 'in/espen-klem'
+    medium = 'eklem'
+  custom_css = ["./css/override.css"]
+  enableNavToggle = false

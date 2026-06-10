@@ -29,9 +29,8 @@
  
 
 
-  <title>Overview of all pages with categories, ordered by category</title>
+  <title>Abouts</title>
 
-  <meta name="description" content="A full overview of all pages with categories, ordered by category">
 
 
 
@@ -55,7 +54,7 @@
       "url": "http://localhost:1313/portfolio/"
     },
     {
-      "@id": "http://localhost:1313/portfolio/categories/#breadcrumb",
+      "@id": "http://localhost:1313/portfolio/about/#breadcrumb",
       "@type": "BreadcrumbList",
       "itemListElement": [
         {
@@ -66,40 +65,47 @@
         },
         {
           "@type": "ListItem",
-          "item": "http://localhost:1313/portfolio/categories/",
-          "name": "Categories",
+          "item": "http://localhost:1313/portfolio/about/",
+          "name": "Abouts",
           "position": 2
         }
       ]
     },
     {
-      "@id": "http://localhost:1313/portfolio/categories/#collectionpage",
+      "@id": "http://localhost:1313/portfolio/about/#collectionpage",
       "@type": "CollectionPage",
       "breadcrumb": {
-        "@id": "http://localhost:1313/portfolio/categories/#breadcrumb"
+        "@id": "http://localhost:1313/portfolio/about/#breadcrumb"
       },
-      "description": "A complete index of categories used to organize topics.",
+      "description": "",
       "isPartOf": {
         "@id": "http://localhost:1313/portfolio/#website"
       },
       "mainEntity": {
         "@type": "ItemList",
-        "itemListElement": [],
-        "numberOfItems": 0
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "name": "About me",
+            "position": 1,
+            "url": "http://localhost:1313/portfolio/about/me/"
+          }
+        ],
+        "numberOfItems": 1
       },
-      "name": "Browse Content by Categories",
-      "url": "http://localhost:1313/portfolio/categories/"
+      "name": "Abouts",
+      "url": "http://localhost:1313/portfolio/about/"
     }
   ]
 }
 </script>
-<meta property="og:url" content="http://localhost:1313/portfolio/categories/">
+<meta property="og:url" content="http://localhost:1313/portfolio/about/">
 	<meta property="og:site_name" content="Espen Klem">
-	<meta property="og:title" content="Categories">
+	<meta property="og:title" content="Abouts">
 	<meta property="og:locale" content="en_us">
 	<meta property="og:type" content="website">
-<link rel="canonical" href="http://localhost:1313/portfolio/categories/" />
-  <meta name="twitter:title" content="Categories" />
+<link rel="canonical" href="http://localhost:1313/portfolio/about/" />
+  <meta name="twitter:title" content="Abouts" />
   <meta name="twitter:card" content="summary_large_image" />
 
 <meta name="generator" content="Hugo 0.163.0">
@@ -135,6 +141,14 @@
       
       
       
+        
+          
+        
+      
+      
+      <button class="theme-toggle" id="toc-toggle" aria-label="Table of contents" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Table of contents">
+        <span class="fas fa-list"></span>
+      </button>
       
       
       
@@ -192,10 +206,10 @@
       <div class="container">
         <div class="row">
           <div class="col-md-10 offset-md-1">
-            <div class="categories-heading">
+            <div class="about-heading">
               
               
-                <h1>Categories</h1>
+                <h1>Abouts</h1>
               
               
               
@@ -216,23 +230,64 @@
 
 
     
-
-
-
-
-<div class="container" role="main">
-  <div class="row">
-    <div class="col-md-10 offset-md-1">
-      
-      <div class="terms-list">
+  <div class="container" role="main">
+    <div class="row">
+      <div class="col-md-10 offset-md-1">
         
+        <div class="posts-list">
           
+          
+            <article class="post-preview">
+    <a href="http://localhost:1313/portfolio/about/me/">
+        <h2 class="post-title">About me</h2>
         
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on June 9, 2026
+  
+  
+  
+  
+  
+</span>
+
+    </p>
+    <div class="post-entry">
+        
+        <h2 id="some-sub-title">some sub-title</h2>
+<h2 id="some-other-sub-title">some other sub-title</h2>
+
+        
+    </div>
+
+    
+
+</article>
+
+          
+        </div>
+        
+
       </div>
     </div>
+    <div class="toc-wrapper" id="toc-wrapper" data-toc-mode="posts">
+  <div class="toc-panel" id="toc-panel" role="dialog" aria-label="Table of contents">
+    <div class="toc-header">
+      <span class="toc-title">Posts</span>
+      <button class="toc-close" id="toc-close" aria-label="Close table of contents">&times;</button>
+    </div>
+    <nav class="toc-body"><ul class="toc-post-list"><li><a href="http://localhost:1313/portfolio/about/me/">About me</a></li></ul></nav>
   </div>
+  <div class="toc-backdrop" id="toc-backdrop"></div>
 </div>
-
+  </div>
 
     
       

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Projects on Espen Klem - Portfolio</title>
+		<title>Projects on Espen Klem</title>
 		<link>http://localhost:1313/portfolio/projects/</link>
-		<description>Recent content in Projects on Espen Klem - Portfolio</description>
+		<description>Recent content in Projects on Espen Klem</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
@@ -18,14 +18,14 @@
 				<link>http://localhost:1313/portfolio/projects/lovdata-proto/</link>
 				<pubDate>Tue, 09 Jun 2026 13:51:35 +0200</pubDate>
 				<guid>http://localhost:1313/portfolio/projects/lovdata-proto/</guid>
-				<description>&lt;h1 id=&#34;lovdata-proto&#34;&gt;Lovdata Proto&lt;/h1&gt;&#xA;&lt;h1 id=&#34;case&#34;&gt;Case&lt;/h1&gt;</description>
+				<description>&lt;h2 id=&#34;case&#34;&gt;Case&lt;/h2&gt;&#xA;&lt;h2 id=&#34;work&#34;&gt;Work&lt;/h2&gt;</description>
 			</item>
 			<item>
 				<title>Secondhand Alert</title>
 				<link>http://localhost:1313/portfolio/projects/secondhand-alert/</link>
 				<pubDate>Tue, 09 Jun 2026 13:51:21 +0200</pubDate>
 				<guid>http://localhost:1313/portfolio/projects/secondhand-alert/</guid>
-				<description>&lt;h1 id=&#34;second-hand-alert&#34;&gt;Second-hand alert&lt;/h1&gt;</description>
+				<description>&lt;h2 id=&#34;case&#34;&gt;Case&lt;/h2&gt;&#xA;&lt;h2 id=&#34;work&#34;&gt;Work&lt;/h2&gt;</description>
 			</item>
 	</channel>
 </rss>

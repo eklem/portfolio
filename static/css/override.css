@@ -1,0 +1,40 @@
+.page-heading h1 {
+  display:none;
+}
+h1, h2.post-title {
+  display:block;
+  font-size: 1.8rem;
+}
+h2 {
+  font-size: 1.4rem;
+}
+h3 {
+  font-size: 1.1rem;
+}
+
+
+/* Display none */
+.menu-toggle {
+  display: none;
+}
+.toc-panel {
+  display:none;
+}
+#toc-toggle {
+  display:none;
+}
+.tooltip {
+  display:none;
+}
+hr.small {
+  display:none;
+}
+.post-meta {
+  display:none;
+}
+.post-pager.blog-post-pager {
+  display:none;
+}
+.credits.theme-by.text-muted {
+  display:none;
+}
