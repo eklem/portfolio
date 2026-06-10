@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/portfolio/about/me/</loc>
+    <loc>https://eklem.github.io/portfolio/about/me/</loc>
     <lastmod>2026-06-09T14:59:26+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/about/</loc>
+    <loc>https://eklem.github.io/portfolio/about/</loc>
     <lastmod>2026-06-09T14:59:26+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/</loc>
+    <loc>https://eklem.github.io/portfolio/</loc>
     <lastmod>2026-06-09T14:59:26+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/projects/lovdata-proto/</loc>
+    <loc>https://eklem.github.io/portfolio/projects/lovdata-proto/</loc>
     <lastmod>2026-06-09T13:51:35+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/projects/</loc>
+    <loc>https://eklem.github.io/portfolio/projects/</loc>
     <lastmod>2026-06-09T13:51:35+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/projects/secondhand-alert/</loc>
+    <loc>https://eklem.github.io/portfolio/projects/secondhand-alert/</loc>
     <lastmod>2026-06-09T13:51:21+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/categories/</loc>
+    <loc>https://eklem.github.io/portfolio/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/portfolio/tags/</loc>
+    <loc>https://eklem.github.io/portfolio/tags/</loc>
   </url>
 </urlset>

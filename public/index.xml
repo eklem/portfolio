@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Espen Klem</title>
-		<link>http://localhost:1313/portfolio/</link>
+		<link>https://eklem.github.io/portfolio/</link>
 		<description>Recent content on Espen Klem</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,26 +12,26 @@
 		
 			<lastBuildDate>Tue, 09 Jun 2026 14:59:26 +0200</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://eklem.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>About me</title>
-				<link>http://localhost:1313/portfolio/about/me/</link>
+				<link>https://eklem.github.io/portfolio/about/me/</link>
 				<pubDate>Tue, 09 Jun 2026 14:59:26 +0200</pubDate>
-				<guid>http://localhost:1313/portfolio/about/me/</guid>
+				<guid>https://eklem.github.io/portfolio/about/me/</guid>
 				<description>&lt;h2 id=&#34;some-sub-title&#34;&gt;some sub-title&lt;/h2&gt;&#xA;&lt;h2 id=&#34;some-other-sub-title&#34;&gt;some other sub-title&lt;/h2&gt;</description>
 			</item>
 			<item>
 				<title>Lovdata Proto</title>
-				<link>http://localhost:1313/portfolio/projects/lovdata-proto/</link>
+				<link>https://eklem.github.io/portfolio/projects/lovdata-proto/</link>
 				<pubDate>Tue, 09 Jun 2026 13:51:35 +0200</pubDate>
-				<guid>http://localhost:1313/portfolio/projects/lovdata-proto/</guid>
+				<guid>https://eklem.github.io/portfolio/projects/lovdata-proto/</guid>
 				<description>&lt;h2 id=&#34;case&#34;&gt;Case&lt;/h2&gt;&#xA;&lt;h2 id=&#34;work&#34;&gt;Work&lt;/h2&gt;</description>
 			</item>
 			<item>
 				<title>Secondhand Alert</title>
-				<link>http://localhost:1313/portfolio/projects/secondhand-alert/</link>
+				<link>https://eklem.github.io/portfolio/projects/secondhand-alert/</link>
 				<pubDate>Tue, 09 Jun 2026 13:51:21 +0200</pubDate>
-				<guid>http://localhost:1313/portfolio/projects/secondhand-alert/</guid>
+				<guid>https://eklem.github.io/portfolio/projects/secondhand-alert/</guid>
 				<description>&lt;h2 id=&#34;case&#34;&gt;Case&lt;/h2&gt;&#xA;&lt;h2 id=&#34;work&#34;&gt;Work&lt;/h2&gt;</description>
 			</item>
 	</channel>
