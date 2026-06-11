@@ -12,17 +12,18 @@ h3 {
   font-size: 1.1rem;
 }
 
+/* layout stuff */
+.projects-heading {
+  padding:120px 0 120px 0;
+}
 
 /* Display none */
-/* .menu-toggle {
-  display: none;
-}
-.toc-panel {
-  display:none;
-}
 #toc-toggle {
   display:none;
 }
+/* #theme-toggle {
+  display:none;
+} */
 .tooltip {
   display:none;
 }
@@ -37,4 +38,25 @@ hr.small {
 }
 .credits.theme-by.text-muted {
   display:none;
-} */
+}
+
+
+/* light/dark mode */
+
+h1 {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding:10px;
+}
+
+.intro-header.big-img .img-desc {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+[data-theme="dark"] footer {
+  background-color: rgb(30, 30, 30);
+}
+
+[data-theme="dark"] nav.navbar-custom {
+  background-color: rgb(30, 30, 30);
+}
+
