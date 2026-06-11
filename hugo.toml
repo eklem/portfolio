@@ -5,7 +5,6 @@ theme = 'beautifulhugo'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
-navShort = true
 
 [Params]
   mainSections = ['projects']
@@ -16,3 +15,8 @@ navShort = true
     medium = 'eklem'
   custom_css = ["./css/override.css"]
   enableNavToggle = false
+  showPageDates = false
+  showPostNav = false
+  socialShare = true
+  navShort = true
+  toc = false
