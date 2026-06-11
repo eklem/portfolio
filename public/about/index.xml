@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Abouts on Espen Klem</title>
-		<link>https://eklem.github.io/portfolio/about/</link>
+		<link>http://localhost:1313/portfolio/about/</link>
 		<description>Recent content in Abouts on Espen Klem</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -10,15 +10,15 @@
 		
 		
 		
-			<lastBuildDate>Tue, 09 Jun 2026 14:59:26 +0200</lastBuildDate>
+			<lastBuildDate>Mon, 11 Jun 2018 12:49:48 +0200</lastBuildDate>
 		
-			<atom:link href="https://eklem.github.io/portfolio/about/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/portfolio/about/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>About me</title>
-				<link>https://eklem.github.io/portfolio/about/me/</link>
-				<pubDate>Tue, 09 Jun 2026 14:59:26 +0200</pubDate>
-				<guid>https://eklem.github.io/portfolio/about/me/</guid>
-				<description>&lt;h2 id=&#34;some-sub-title&#34;&gt;some sub-title&lt;/h2&gt;&#xA;&lt;h2 id=&#34;some-other-sub-title&#34;&gt;some other sub-title&lt;/h2&gt;</description>
+				<title>If Forsikring</title>
+				<link>http://localhost:1313/portfolio/about/if-insurance/</link>
+				<pubDate>Mon, 11 Jun 2018 12:49:48 +0200</pubDate>
+				<guid>http://localhost:1313/portfolio/about/if-insurance/</guid>
+				<description></description>
 			</item>
 	</channel>
 </rss>

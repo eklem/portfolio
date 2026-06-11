@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Projects on Espen Klem</title>
-		<link>https://eklem.github.io/portfolio/projects/</link>
+		<link>http://localhost:1313/portfolio/projects/</link>
 		<description>Recent content in Projects on Espen Klem</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -10,22 +10,6 @@
 		
 		
 		
-			<lastBuildDate>Tue, 09 Jun 2026 13:51:35 +0200</lastBuildDate>
-		
-			<atom:link href="https://eklem.github.io/portfolio/projects/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>Lovdata Proto</title>
-				<link>https://eklem.github.io/portfolio/projects/lovdata-proto/</link>
-				<pubDate>Tue, 09 Jun 2026 13:51:35 +0200</pubDate>
-				<guid>https://eklem.github.io/portfolio/projects/lovdata-proto/</guid>
-				<description>&lt;h2 id=&#34;case&#34;&gt;Case&lt;/h2&gt;&#xA;&lt;h2 id=&#34;work&#34;&gt;Work&lt;/h2&gt;&#xA;&lt;h2 id=&#34;case-1&#34;&gt;Case&lt;/h2&gt;&#xA;&lt;h2 id=&#34;work-1&#34;&gt;Work&lt;/h2&gt;&#xA;&lt;h2 id=&#34;case-2&#34;&gt;Case&lt;/h2&gt;&#xA;&lt;h2 id=&#34;work-2&#34;&gt;Work&lt;/h2&gt;&#xA;&lt;h2 id=&#34;case-3&#34;&gt;Case&lt;/h2&gt;&#xA;&lt;h2 id=&#34;work-3&#34;&gt;Work&lt;/h2&gt;&#xA;&lt;h2 id=&#34;case-4&#34;&gt;Case&lt;/h2&gt;&#xA;&lt;h2 id=&#34;work-4&#34;&gt;Work&lt;/h2&gt;&#xA;&lt;h2 id=&#34;case-5&#34;&gt;Case&lt;/h2&gt;&#xA;&lt;h2 id=&#34;work-5&#34;&gt;Work&lt;/h2&gt;</description>
-			</item>
-			<item>
-				<title>Secondhand Alert</title>
-				<link>https://eklem.github.io/portfolio/projects/secondhand-alert/</link>
-				<pubDate>Tue, 09 Jun 2026 13:51:21 +0200</pubDate>
-				<guid>https://eklem.github.io/portfolio/projects/secondhand-alert/</guid>
-				<description>&lt;h2 id=&#34;case&#34;&gt;Case&lt;/h2&gt;&#xA;&lt;h2 id=&#34;work&#34;&gt;Work&lt;/h2&gt;</description>
-			</item>
+			<atom:link href="http://localhost:1313/portfolio/projects/index.xml" rel="self" type="application/rss+xml" />
 	</channel>
 </rss>

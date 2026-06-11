@@ -7,7 +7,7 @@ theme = 'beautifulhugo'
     dir = ':cacheDir/images'
 
 [Params]
-  mainSections = ['projects']
+  mainSections = ['posts']
   since = 2018
   [Params.author]
     github = 'eklem'
@@ -15,6 +15,6 @@ theme = 'beautifulhugo'
     medium = 'eklem'
   custom_css = ["./css/override.css"]
   [[Params.bigimg]]
-    src = "/portfolio/img/ldproto-tegninger-01.png"
-    desc = "Skisser for Lovdata Proto-prosjektet. Ideer, sortering av informasjon og interaksjonsdesign."
+    src = "/portfolio/img/forside-illustrasjoner-02.png"
+    desc = "Oversiktsbilde, diverse skisser, noen bilder og også skjermdumper."
     position = "center top"

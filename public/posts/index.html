@@ -41,7 +41,7 @@
     {
       "@id": "http://localhost:1313/portfolio/#website",
       "@type": "WebSite",
-      "name": "Espen Klem - Portfolio",
+      "name": "Espen Klem",
       "publisher": {
         "@id": "http://localhost:1313/portfolio/#organization"
       },
@@ -83,8 +83,33 @@
       },
       "mainEntity": {
         "@type": "ItemList",
-        "itemListElement": [],
-        "numberOfItems": 0
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "name": "Lovdata Proto",
+            "position": 1,
+            "url": "http://localhost:1313/portfolio/posts/lovdata-proto/"
+          },
+          {
+            "@type": "ListItem",
+            "name": "Secondhand Alert",
+            "position": 2,
+            "url": "http://localhost:1313/portfolio/posts/secondhand-alert/"
+          },
+          {
+            "@type": "ListItem",
+            "name": "If Forsikring",
+            "position": 3,
+            "url": "http://localhost:1313/portfolio/posts/if-insurance/"
+          },
+          {
+            "@type": "ListItem",
+            "name": "Om Espen Klem",
+            "position": 4,
+            "url": "http://localhost:1313/portfolio/posts/me/"
+          }
+        ],
+        "numberOfItems": 4
       },
       "name": "Posts",
       "url": "http://localhost:1313/portfolio/posts/"
@@ -93,7 +118,7 @@
 }
 </script>
 <meta property="og:url" content="http://localhost:1313/portfolio/posts/">
-	<meta property="og:site_name" content="Espen Klem - Portfolio">
+	<meta property="og:site_name" content="Espen Klem">
 	<meta property="og:title" content="Posts">
 	<meta property="og:locale" content="en_us">
 	<meta property="og:type" content="website">
@@ -102,7 +127,7 @@
   <meta name="twitter:card" content="summary_large_image" />
 
 <meta name="generator" content="Hugo 0.163.0">
-<link rel="alternate" href="http://localhost:1313/portfolio/index.xml" type="application/rss+xml" title="Espen Klem - Portfolio">
+<link rel="alternate" href="http://localhost:1313/portfolio/index.xml" type="application/rss+xml" title="Espen Klem">
 
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.45/dist/katex.min.css" integrity="sha384-UA8juhPf75SzzAMA/4fo3yOU7sBJ0om7SCD2GHq0fZqZco6tr1UCV7nUbk9J90JM" crossorigin="anonymous">
@@ -119,13 +144,12 @@
 
   <link rel="stylesheet" href="/portfolio/css/main.css" />
   <link rel="stylesheet" href="/portfolio/css/print.css" media="print" /><link rel="stylesheet" href="/portfolio/css/dark.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" /><link rel="stylesheet" href="/portfolio/css/syntax.css" /><link id="hljs-dark" rel="stylesheet" href="/portfolio/css/syntax-dark.css" /><link rel="stylesheet" href="/portfolio/css/codeblock.css" /><link rel="stylesheet" href="/portfolio/css/toc.css" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.4.4/dist/photoswipe.css" integrity="sha384-IfxC36XL/toUyJ939C73PcgMuRzAZuIzZxE38drsmO5p6jD7ei+Zx/1oA/0l8ysE" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" /><link rel="stylesheet" href="/portfolio/css/syntax.css" /><link id="hljs-dark" rel="stylesheet" href="/portfolio/css/syntax-dark.css" /><link rel="stylesheet" href="/portfolio/css/codeblock.css" /><link rel="stylesheet" href="/portfolio/css/toc.css" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.4.4/dist/photoswipe.css" integrity="sha384-IfxC36XL/toUyJ939C73PcgMuRzAZuIzZxE38drsmO5p6jD7ei+Zx/1oA/0l8ysE" crossorigin="anonymous"><link rel="stylesheet" href="/portfolio/css/override.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-light navbar-custom fixed-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="http://localhost:1313/portfolio/">Espen Klem - Portfolio</a>
+    <a class="navbar-brand" href="http://localhost:1313/portfolio/">Espen Klem</a>
     <div class="d-flex align-items-center">
       
       
@@ -136,6 +160,10 @@
           
         
       
+      
+      <button class="theme-toggle" id="toc-toggle" aria-label="Table of contents" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Table of contents">
+        <span class="fas fa-list"></span>
+      </button>
       
       
       
@@ -159,8 +187,7 @@
 
         
       </ul>
-      
-
+      <a class="navbar-brand" href="/portfolio/posts/me/">About</a>
     </div>
 
     
@@ -199,10 +226,21 @@
               
               
               
-                <hr class="small">
-              
               
 
+
+              
+                <span class="post-meta">
+  
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on June 9, 2026
+  
+  
+  
+  
+  
+</span>
 
               
             </div>
@@ -212,7 +250,6 @@
     </div>
   
     
-
   </header>
 
 
@@ -224,12 +261,478 @@
         <div class="posts-list">
           
           
+            <article class="post-preview">
+    <a href="http://localhost:1313/portfolio/posts/lovdata-proto/">
+        <h2 class="post-title">Lovdata Proto</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on June 9, 2026
+  
+  
+  
+  
+  
+</span>
+
+    </p>
+    <div class="post-entry">
+        
+        <h2 id="ideer-struktrering-av-informasjon-og-interaksjons-skisser">Ideer, struktrering av informasjon og interaksjons-skisser</h2>
+
+
+<div class="gallery caption-position-bottom caption-effect-fade hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+	  
+    
+    <link rel="stylesheet" href="/portfolio/css/hugo-easy-gallery.css" />
+    <div class="box fancy-figure caption-position-bottom" >
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <div class="img" style="background-image: url('/portfolio/img/lovdata-remarkable-skisser-01.png');">
+          <img itemprop="thumbnail" src="/portfolio/img/lovdata-remarkable-skisser-01.png" alt="noe tekst"/>
+        </div>
+        <a href="/portfolio/img/lovdata-remarkable-skisser-01.png" itemprop="contentUrl" target="_blank"></a>
+          <figcaption><p>noe tekst</p>
+          </figcaption>
+      </figure>
+    </div>
+    
+
+    
+    
+    <div class="box fancy-figure caption-position-bottom" >
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <div class="img" style="background-image: url('/portfolio/img/lovdata-remarkable-skisser-02.png');">
+          <img itemprop="thumbnail" src="/portfolio/img/lovdata-remarkable-skisser-02.png" alt="/portfolio/img/lovdata-remarkable-skisser-02.png"/>
+        </div>
+        <a href="/portfolio/img/lovdata-remarkable-skisser-02.png" itemprop="contentUrl" target="_blank"></a>
+      </figure>
+    </div>
+    
+
+    
+    
+    <div class="box fancy-figure caption-position-bottom" >
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <div class="img" style="background-image: url('/portfolio/img/lovdata-remarkable-skisser-03.png');">
+          <img itemprop="thumbnail" src="/portfolio/img/lovdata-remarkable-skisser-03.png" alt="/portfolio/img/lovdata-remarkable-skisser-03.png"/>
+        </div>
+        <a href="/portfolio/img/lovdata-remarkable-skisser-03.png" itemprop="contentUrl" target="_blank"></a>
+      </figure>
+    </div>
+    
+
+    
+    
+    <div class="box fancy-figure caption-position-bottom" >
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <div class="img" style="background-image: url('/portfolio/img/lovdata-remarkable-skisser-04.png');">
+          <img itemprop="thumbnail" src="/portfolio/img/lovdata-remarkable-skisser-04.png" alt="/portfolio/img/lovdata-remarkable-skisser-04.png"/>
+        </div>
+        <a href="/portfolio/img/lovdata-remarkable-skisser-04.png" itemprop="contentUrl" target="_blank"></a>
+      </figure>
+    </div>
+    
+
+
+</div>
+
+
+
+<div class="gallery caption-position-bottom caption-effect-fade hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+	  
+
+</div>
+
+<h2 id="brukertesting">Brukertesting</h2>
+
+
+<div class="gallery caption-position-bottom caption-effect-fade hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+	  
+    
+    
+    <div class="box fancy-figure caption-position-bottom" >
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <div class="img" style="background-image: url('/portfolio/img/lovdata-brukertesting-01.jpg');">
+          <img itemprop="thumbnail" src="/portfolio/img/lovdata-brukertesting-01.jpg" alt="/portfolio/img/lovdata-brukertesting-01.jpg"/>
+        </div>
+        <a href="/portfolio/img/lovdata-brukertesting-01.jpg" itemprop="contentUrl" target="_blank"></a>
+      </figure>
+    </div>
+    
+
+    
+    
+    <div class="box fancy-figure caption-position-bottom" >
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <div class="img" style="background-image: url('/portfolio/img/lovdata-brukertesting-02.jpg');">
+          <img itemprop="thumbnail" src="/portfolio/img/lovdata-brukertesting-02.jpg" alt="/portfolio/img/lovdata-brukertesting-02.jpg"/>
+        </div>
+        <a href="/portfolio/img/lovdata-brukertesting-02.jpg" itemprop="contentUrl" target="_blank"></a>
+      </figure>
+    </div>
+    
+
+
+</div>
+
+<h2 id="prosess-styring">Prosess-styring</h2>
+
+
+<div class="gallery caption-position-bottom caption-effect-fade hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+	  
+    
+    
+    <div class="box fancy-figure caption-position-bottom" >
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <div class="img" style="background-image: url('/portfolio/img/lovdata-tldr-skisser-01.png');">
+          <img itemprop="thumbnail" src="/portfolio/img/lovdata-tldr-skisser-01.png" alt="/portfolio/img/lovdata-tldr-skisser-01.png"/>
+        </div>
+        <a href="/portfolio/img/lovdata-tldr-skisser-01.png" itemprop="contentUrl" target="_blank"></a>
+      </figure>
+    </div>
+    
+
+    
+    
+    <div class="box fancy-figure caption-position-bottom" >
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <div class="img" style="background-image: url('/portfolio/img/lovdata-tldr-skisser-03.png');">
+          <img itemprop="thumbnail" src="/portfolio/img/lovdata-tldr-skisser-03.png" alt="/portfolio/img/lovdata-tldr-skisser-03.png"/>
+        </div>
+        <a href="/portfolio/img/lovdata-tldr-skisser-03.png" itemprop="contentUrl" target="_blank"></a>
+      </figure>
+    </div>
+    
+
+    
+    
+    <div class="box fancy-figure caption-position-bottom" >
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <div class="img" style="background-image: url('/portfolio/img/lovdata-tldr-skisser-04.png');">
+          <img itemprop="thumbnail" src="/portfolio/img/lovdata-tldr-skisser-04.png" alt="/portfolio/img/lovdata-tldr-skisser-04.png"/>
+        </div>
+        <a href="/portfolio/img/lovdata-tldr-skisser-04.png" itemprop="contentUrl" target="_blank"></a>
+      </figure>
+    </div>
+    
+
+    
+    
+    <div class="box fancy-figure caption-position-bottom" >
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <div class="img" style="background-image: url('/portfolio/img/lovdata-tldr-skisser-05.png');">
+          <img itemprop="thumbnail" src="/portfolio/img/lovdata-tldr-skisser-05.png" alt="/portfolio/img/lovdata-tldr-skisser-05.png"/>
+        </div>
+        <a href="/portfolio/img/lovdata-tldr-skisser-05.png" itemprop="contentUrl" target="_blank"></a>
+      </figure>
+    </div>
+    
+
+    
+    
+    <div class="box fancy-figure caption-position-bottom" >
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <div class="img" style="background-image: url('/portfolio/img/lovdata-tldr-skisser-06.png');">
+          <img itemprop="thumbnail" src="/portfolio/img/lovdata-tldr-skisser-06.png" alt="/portfolio/img/lovdata-tldr-skisser-06.png"/>
+        </div>
+        <a href="/portfolio/img/lovdata-tldr-skisser-06.png" itemprop="contentUrl" target="_blank"></a>
+      </figure>
+    </div>
+    
+
+
+</div>
+
+<h2 id="case">Case</h2>
+<h2 id="work">Work</h2>
+<h2 id="case-1">Case</h2>
+<h2 id="work-1">Work</h2>
+<h2 id="case-2">Case</h2>
+<h2 id="work-2">Work</h2>
+<h2 id="case-3">Case</h2>
+<h2 id="work-3">Work</h2>
+<h2 id="case-4">Case</h2>
+<h2 id="work-4">Work</h2>
+
+
+<div class="gallery caption-position-bottom caption-effect-fade hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+	  
+    
+    
+    <div class="box fancy-figure caption-position-bottom" >
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <div class="img" style="background-image: url('/portfolio/img/lovdata-brukertesting-02.jpg');">
+          <img itemprop="thumbnail" src="/portfolio/img/lovdata-brukertesting-02.jpg" alt="/portfolio/img/lovdata-brukertesting-02.jpg"/>
+        </div>
+        <a href="/portfolio/img/lovdata-brukertesting-02.jpg" itemprop="contentUrl" target="_blank"></a>
+      </figure>
+    </div>
+    
+
+
+</div>
+
+
+        
+    </div>
+
+    
+
+</article>
+
+          
+            <article class="post-preview">
+    <a href="http://localhost:1313/portfolio/posts/secondhand-alert/">
+        <h2 class="post-title">Secondhand Alert</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on June 9, 2026
+  
+  
+  
+  
+  
+</span>
+
+    </p>
+    <div class="post-entry">
+        
+        <h2 id="ideen">Ideen</h2>
+
+
+<div class="gallery caption-position-bottom caption-effect-fade hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+	  
+    
+    <link rel="stylesheet" href="/portfolio/css/hugo-easy-gallery.css" />
+    <div class="box fancy-figure caption-position-bottom" >
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <div class="img" style="background-image: url('/portfolio/img/secondhandalert-ide-01.png');">
+          <img itemprop="thumbnail" src="/portfolio/img/secondhandalert-ide-01.png" alt="/portfolio/img/secondhandalert-ide-01.png"/>
+        </div>
+        <a href="/portfolio/img/secondhandalert-ide-01.png" itemprop="contentUrl" target="_blank"></a>
+      </figure>
+    </div>
+    
+
+    
+    
+    <div class="box fancy-figure caption-position-bottom" >
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <div class="img" style="background-image: url('/portfolio/img/secondhandalert-ide-02.png');">
+          <img itemprop="thumbnail" src="/portfolio/img/secondhandalert-ide-02.png" alt="/portfolio/img/secondhandalert-ide-02.png"/>
+        </div>
+        <a href="/portfolio/img/secondhandalert-ide-02.png" itemprop="contentUrl" target="_blank"></a>
+      </figure>
+    </div>
+    
+
+
+</div>
+
+<h2 id="gjennomføring-så-langt">Gjennomføring så langt</h2>
+
+
+<div class="gallery caption-position-bottom caption-effect-fade hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+	  
+    
+    
+    <div class="box fancy-figure caption-position-bottom" >
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <div class="img" style="background-image: url('/portfolio/img/secondhandalert-logo-skisser.jpg');">
+          <img itemprop="thumbnail" src="/portfolio/img/secondhandalert-logo-skisser.jpg" alt="/portfolio/img/secondhandalert-logo-skisser.jpg"/>
+        </div>
+        <a href="/portfolio/img/secondhandalert-logo-skisser.jpg" itemprop="contentUrl" target="_blank"></a>
+      </figure>
+    </div>
+    
+
+    
+    
+    <div class="box fancy-figure caption-position-bottom" >
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <div class="img" style="background-image: url('/portfolio/img/secondhandalert-logo-figma.jpg');">
+          <img itemprop="thumbnail" src="/portfolio/img/secondhandalert-logo-figma.jpg" alt="/portfolio/img/secondhandalert-logo-figma.jpg"/>
+        </div>
+        <a href="/portfolio/img/secondhandalert-logo-figma.jpg" itemprop="contentUrl" target="_blank"></a>
+      </figure>
+    </div>
+    
+
+    
+    
+    <div class="box fancy-figure caption-position-bottom" >
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <div class="img" style="background-image: url('/portfolio/img/secondhandalert-ikea-sofa-01.png');">
+          <img itemprop="thumbnail" src="/portfolio/img/secondhandalert-ikea-sofa-01.png" alt="/portfolio/img/secondhandalert-ikea-sofa-01.png"/>
+        </div>
+        <a href="/portfolio/img/secondhandalert-ikea-sofa-01.png" itemprop="contentUrl" target="_blank"></a>
+      </figure>
+    </div>
+    
+
+    
+    
+    <div class="box fancy-figure caption-position-bottom" >
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <div class="img" style="background-image: url('/portfolio/img/secondhandalert-programmering-01.png');">
+          <img itemprop="thumbnail" src="/portfolio/img/secondhandalert-programmering-01.png" alt="/portfolio/img/secondhandalert-programmering-01.png"/>
+        </div>
+        <a href="/portfolio/img/secondhandalert-programmering-01.png" itemprop="contentUrl" target="_blank"></a>
+      </figure>
+    </div>
+    
+
+
+
+</div>
+
+
+        
+    </div>
+
+    
+
+</article>
+
+          
+            <article class="post-preview">
+    <a href="http://localhost:1313/portfolio/posts/if-insurance/">
+        <h2 class="post-title">If Forsikring</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on June 11, 2018
+  
+  
+  
+  
+  
+</span>
+
+    </p>
+    <div class="post-entry">
+        
+        
+        
+    </div>
+
+    
+
+</article>
+
+          
+            <article class="post-preview">
+    <a href="http://localhost:1313/portfolio/posts/me/">
+        <h2 class="post-title">Om Espen Klem</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on June 3, 1972
+  
+  
+  
+  
+  
+</span>
+
+    </p>
+    <div class="post-entry">
+        
+        <div class="gallery caption-position-bottom caption-effect-fade hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+	  
+  
+    
+  <link rel="stylesheet" href="/portfolio/css/hugo-easy-gallery.css" />
+  <div class="box fancy-figure caption-position-bottom" >
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/portfolio/img/espen-presentasjon-brukertesting.jpg');">
+        <img itemprop="thumbnail" src="/portfolio/img/espen-presentasjon-brukertesting.jpg" alt="Presentasjon på internkonferanse om hvordan prosessen i å lære bort tegning for kommunikasjon."/>
+      </div>
+      <a href="/portfolio/img/espen-presentasjon-brukertesting.jpg" itemprop="contentUrl" target="_blank"></a>
+        <figcaption><p>Presentasjon på internkonferanse om hvordan prosessen i å lære bort tegning for kommunikasjon.</p>
+        </figcaption>
+    </figure>
+  </div>
+  
+
+  
+    
+  
+  <div class="box fancy-figure caption-position-bottom" >
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/portfolio/img/espen-presentasjon-tegning.jpg');">
+        <img itemprop="thumbnail" src="/portfolio/img/espen-presentasjon-tegning.jpg" alt="Presentasjon på internkonferanse om enkel brukertesting"/>
+      </div>
+      <a href="/portfolio/img/espen-presentasjon-tegning.jpg" itemprop="contentUrl" target="_blank"></a>
+        <figcaption><p>Presentasjon på internkonferanse om enkel brukertesting</p>
+        </figcaption>
+    </figure>
+  </div>
+  
+
+  
+    
+  
+  <div class="box fancy-figure caption-position-bottom" >
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/portfolio/img/espen-workshop-01.jpg');">
+        <img itemprop="thumbnail" src="/portfolio/img/espen-workshop-01.jpg" alt="Noe av resultatet fra en &#39;tegne for å kommunisere&#39;-workshop."/>
+      </div>
+      <a href="/portfolio/img/espen-workshop-01.jpg" itemprop="contentUrl" target="_blank"></a>
+        <figcaption><p>Noe av resultatet fra en &#39;tegne for å kommunisere&#39;-workshop.</p>
+        <a href="http://localhost:1313/portfolio/posts/me/" class="post-read-more">[Read More]</a>
+        
+    </div>
+
+    
+
+</article>
+
+          
         </div>
         
 
       </div>
     </div>
-    
+    <div class="toc-wrapper" id="toc-wrapper" data-toc-mode="posts">
+  <div class="toc-panel" id="toc-panel" role="dialog" aria-label="Table of contents">
+    <div class="toc-header">
+      <span class="toc-title">Posts</span>
+      <button class="toc-close" id="toc-close" aria-label="Close table of contents">&times;</button>
+    </div>
+    <nav class="toc-body"><ul class="toc-post-list"><li><a href="http://localhost:1313/portfolio/posts/lovdata-proto/">Lovdata Proto</a></li><li><a href="http://localhost:1313/portfolio/posts/secondhand-alert/">Secondhand Alert</a></li><li><a href="http://localhost:1313/portfolio/posts/if-insurance/">If Forsikring</a></li><li><a href="http://localhost:1313/portfolio/posts/me/">Om Espen Klem</a></li></ul></nav>
+  </div>
+  <div class="toc-backdrop" id="toc-backdrop"></div>
+</div>
   </div>
 
     
@@ -243,6 +746,31 @@
           
           
           
+              <li class="list-inline-item" >
+		  <a rel="noopener noreferrer" href="https://github.com/eklem" title="GitHub" aria-label="GitHub">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse" aria-hidden="true"></i>
+                  </span>
+                </a>
+              </li>
+          
+          
+          
+          
+          
+          
+          
+              <li class="list-inline-item" >
+		  <a rel="noopener noreferrer" href="https://linkedin.com/in/espen-klem" title="LinkedIn" aria-label="LinkedIn">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse" aria-hidden="true"></i>
+                  </span>
+                </a>
+              </li>
           
           
           
@@ -262,13 +790,15 @@
           
           
           
-          
-          
-          
-          
-          
-          
-          
+              <li class="list-inline-item" >
+		  <a rel="noopener noreferrer" href="https://medium.com/@eklem" title="Medium" aria-label="Medium">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-medium fa-stack-1x fa-inverse" aria-hidden="true"></i>
+                  </span>
+                </a>
+              </li>
           
           
           
@@ -289,12 +819,12 @@
           
           &copy;
           
-            0001
+            2018 - 2026
           
 
           
           
-            <a href="http://localhost:1313/portfolio/">Espen Klem - Portfolio</a>
+            <a href="http://localhost:1313/portfolio/">Espen Klem</a>
           
         </p>
         
