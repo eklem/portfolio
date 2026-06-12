@@ -15,6 +15,6 @@ theme = 'beautifulhugo'
     medium = 'eklem'
   custom_css = ["./css/override.css"]
   [[Params.bigimg]]
-    src = "/portfolio/img/forside-illustrasjoner-02.png"
-    desc = "Oversiktsbilde, diverse skisser, noen bilder og også skjermdumper."
-    position = "center top"
+    src = "img/espen-presentasjon-tegning.jpg"
+    desc = "Presentasjon på internkonferanse om hvordan prosessen i å lære bort tegning for kommunikasjon."
+    position = "center middle"
