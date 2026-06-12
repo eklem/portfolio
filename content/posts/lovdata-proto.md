@@ -15,50 +15,20 @@ title = 'Lovdata Proto'
     {{< beautifulfigure thumb="-thumb" src="/portfolio/img/lovdata-remarkable-skisser-02.png" caption="" alt="">}}
     {{< beautifulfigure thumb="-thumb" src="/portfolio/img/lovdata-remarkable-skisser-03.png" caption="" alt="">}}
     {{< beautifulfigure thumb="-thumb" src="/portfolio/img/lovdata-remarkable-skisser-04.png" caption="" alt="">}}
-{{< /gallery >}}
-
-
-{{< gallery caption-effect="fade" >}}
-{{< /gallery >}}
-
-## Brukertesting
-
-{{< gallery caption-effect="fade" directory="/img/" >}}
+    {{< beautifulfigure thumb="-thumb" src="/portfolio/img/lovdata-brukerintervjuer-runde-2.png" caption="" alt="">}}
     {{< beautifulfigure thumb="-thumb" src="/portfolio/img/lovdata-brukertesting-01.jpg" caption="" alt="">}}
     {{< beautifulfigure thumb="-thumb" src="/portfolio/img/lovdata-brukertesting-02.jpg" caption="" alt="">}}
-{{< /gallery >}}
-
-## Prosess-styring
-
-{{< gallery caption-effect="fade" >}}
+    {{< beautifulfigure thumb="-thumb" src="/portfolio/img/lovdata-mobil-brukertest-01.png" caption="" alt="">}}
+    {{< beautifulfigure thumb="-thumb" src="/portfolio/img/lovdata-mobil-brukertest-02.png" caption="" alt="">}}
     {{< beautifulfigure thumb="-thumb" src="/portfolio/img/lovdata-tldr-skisser-01.png" caption="" alt="">}}
     {{< beautifulfigure thumb="-thumb" src="/portfolio/img/lovdata-tldr-skisser-03.png" caption="" alt="">}}
     {{< beautifulfigure thumb="-thumb" src="/portfolio/img/lovdata-tldr-skisser-04.png" caption="" alt="">}}
     {{< beautifulfigure thumb="-thumb" src="/portfolio/img/lovdata-tldr-skisser-05.png" caption="" alt="">}}
     {{< beautifulfigure thumb="-thumb" src="/portfolio/img/lovdata-tldr-skisser-06.png" caption="" alt="">}}
-{{< /gallery >}}
-
-## Case
-
-## Work
-
-## Case
-
-## Work
-
-## Case
-
-## Work
-
-## Case
-
-## Work
-
-## Case
-
-## Work
-
-
-{{< gallery caption-effect="fade" directory="/img/" >}}
-    {{< beautifulfigure thumb="-thumb" src="/portfolio/img/lovdata-brukertesting-02.jpg" caption="" alt="">}}
+    {{< beautifulfigure thumb="-thumb" src="/portfolio/img/lovdata-grupper-merknader-01.png" caption="" alt="">}}
+    {{< beautifulfigure thumb="-thumb" src="/portfolio/img/lovdata-mobil-innlogging.png" caption="" alt="">}}
+    {{< beautifulfigure thumb="-thumb" src="/portfolio/img/lovdata-mobil-forside.png" caption="" alt="">}}
+    {{< beautifulfigure thumb="-thumb" src="/portfolio/img/lovdata-mobil-merknader-markeringer.png" caption="" alt="">}}
+    {{< beautifulfigure thumb="-thumb" src="/portfolio/img/lovdata-mobil-versjoner.png" caption="" alt="">}}
+    {{< beautifulfigure thumb="-thumb" src="/portfolio/img/lovdata-stort-breddeformat.png" caption="" alt="">}}
 {{< /gallery >}}

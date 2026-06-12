@@ -10,6 +10,23 @@ h3 {
 }
 
 /* layout stuff */
+div.gallery {
+    max-width: 1024px;
+}
+@media only screen and (min-width: 480px) and (max-width: 1023px) {
+  .gallery .box {
+    width: 33.3%;
+    padding-bottom: 33.3%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+   /* Medium desktop: 4 tiles */
+   div.gallery .box {
+      width: 25%;
+      padding-bottom: 25%;
+   }
+}
+
 /* .projects-heading {
   padding:120px 0 120px 0;
 } */

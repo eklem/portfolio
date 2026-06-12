@@ -15,3 +15,7 @@ title = 'Om Espen Klem'
   {{< figure thumb="-thumb" src="/portfolio/img/espen-presentasjon-tegning.jpg" caption="Presentasjon på internkonferanse om enkel brukertesting">}}
   {{< figure thumb="-thumb" src="/portfolio/img/espen-workshop-01.jpg" caption="Noe av resultatet fra en 'tegne for å kommunisere'-workshop.">}}
 {{< /gallery >}}
+
+## Espen Klem
+
+30 års erfaring med webutvikling. Først frontend-kode og webdesign og etterhvert interaksjonsdesign og noe tjenestedesign. Progammerer forskjellige greier som en hobby og kommuniserer bra med utviklere.
