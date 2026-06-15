@@ -11,7 +11,7 @@ theme = 'beautifulhugo'
   since = 2018
   [Params.author]
     github = 'eklem'
-    linkedin = 'in/espen-klem'
+    linkedin = 'espen-klem'
     medium = 'eklem'
   custom_css = ["./css/override.css"]
   [[Params.bigimg]]
