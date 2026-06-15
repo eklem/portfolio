@@ -1,13 +1,15 @@
 +++
 date = '2018-06-11T12:49:48+02:00'
 draft = false
-title = 'If personforsikring - Diverse prosjekter'
+title = 'If skadeforsikring - Diverse prosjekter'
 
 [[Params.bigimg]]
     src = "/portfolio/img/if-tjenestedesign-01.png"
     desc = "Blueprint av hvordan flyten for brukere og kundebehandlere er for personforsikring."
     position = "center middle"
 +++
+
+## Personforsikring, bilforsikring og forsøk på endringsledelse
 
 {{< gallery caption-effect="fade" >}}
     {{< beautifulfigure thumb="-thumb" src="/portfolio/img/if-brukertesting-01.png" caption="" alt="">}}

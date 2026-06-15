@@ -8,7 +8,9 @@ title = 'Lovdata Proto'
     position = "center top"
 +++
 
-## Ideer, struktrering av informasjon og interaksjons-skisser
+## Lovdata proto - Mobil og desktop
+
+Fornying, forenkling og forbedring av Lovdata pro.
 
 {{< gallery caption-effect="fade" >}}
     {{< beautifulfigure thumb="-thumb" src="/portfolio/img/lovdata-remarkable-skisser-01.png" caption="noe tekst" alt="noe tekst">}}
@@ -32,3 +34,5 @@ title = 'Lovdata Proto'
     {{< beautifulfigure thumb="-thumb" src="/portfolio/img/lovdata-mobil-versjoner.png" caption="" alt="">}}
     {{< beautifulfigure thumb="-thumb" src="/portfolio/img/lovdata-stort-breddeformat.png" caption="" alt="">}}
 {{< /gallery >}}
+
+

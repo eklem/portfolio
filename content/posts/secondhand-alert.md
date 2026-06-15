@@ -11,6 +11,8 @@ title = 'Secondhand Alert'
 
 ## Ideen og gjennomføring så langt
 
+Mulig løsning for å minne deg på at et produkt du ser på kan kjøpes brukt på f.eks. Finn, Bookis eller Tise.
+
 {{< gallery caption-effect="fade" >}}
   {{< beautifulfigure thumb="-thumb" src="/portfolio/img/secondhandalert-ide-01.png" caption="" alt="">}}
   {{< beautifulfigure thumb="-thumb" src="/portfolio/img/secondhandalert-ide-02.png" caption="" alt="">}}
@@ -20,5 +22,3 @@ title = 'Secondhand Alert'
   {{< beautifulfigure thumb="-thumb" src="/portfolio/img/secondhandalert-ikea-sofa-01.png" caption="" alt="">}}
   {{< beautifulfigure thumb="-thumb" src="/portfolio/img/secondhandalert-programmering-01.png" caption="" alt="">}}
 {{< /gallery >}}
-
-

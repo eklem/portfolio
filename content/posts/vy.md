@@ -1,7 +1,7 @@
 +++
 date = '2026-06-12T10:17:49+02:00'
 draft = false
-title = 'Vy Team kjøretøy - Diverse prosjekter'
+title = 'Vy Team kjøretøy'
 
 [[Params.bigimg]]
     src = "/portfolio/img/vy-lodalen.jpg"
@@ -27,3 +27,7 @@ title = 'Vy Team kjøretøy - Diverse prosjekter'
   {{< beautifulfigure thumb="-thumb" src="/portfolio/img/vy-togpartner-tognr-kjoeretoey.png" caption="" alt="">}}
   {{< beautifulfigure thumb="-thumb" src="/portfolio/img/vy-togpartner-togsett-turnering.png" caption="" alt="">}}
 {{< /gallery >}}
+
+## Togpartner og Togkommunikasjon
+
+Togpartner er en webapp for de som rengjør og vedlikeholder togene. Både planleggere og de som faktisk vasker og skrur.

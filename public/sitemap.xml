@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/portfolio/</loc>
+    <loc>https://eklem.github.io/portfolio/</loc>
     <lastmod>2026-06-12T10:17:49+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/posts/</loc>
+    <loc>https://eklem.github.io/portfolio/posts/</loc>
     <lastmod>2026-06-12T10:17:49+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/posts/vy/</loc>
+    <loc>https://eklem.github.io/portfolio/posts/vy/</loc>
     <lastmod>2026-06-12T10:17:49+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/posts/lovdata-proto/</loc>
+    <loc>https://eklem.github.io/portfolio/posts/lovdata-proto/</loc>
     <lastmod>2026-06-09T13:51:35+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/posts/secondhand-alert/</loc>
+    <loc>https://eklem.github.io/portfolio/posts/secondhand-alert/</loc>
     <lastmod>2026-06-09T13:51:21+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/posts/if-insurance/</loc>
+    <loc>https://eklem.github.io/portfolio/posts/if-insurance/</loc>
     <lastmod>2018-06-11T12:49:48+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/posts/fhi/</loc>
+    <loc>https://eklem.github.io/portfolio/posts/fhi/</loc>
     <lastmod>2017-06-12T16:49:46+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/posts/me/</loc>
+    <loc>https://eklem.github.io/portfolio/posts/me/</loc>
     <lastmod>1972-06-03T13:04:07+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/categories/</loc>
+    <loc>https://eklem.github.io/portfolio/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/portfolio/tags/</loc>
+    <loc>https://eklem.github.io/portfolio/tags/</loc>
   </url>
 </urlset>

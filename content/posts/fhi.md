@@ -9,6 +9,10 @@ title = 'FHI - Melding om dødsfall og dødsårsak'
     position = "center middle"
 +++
 
+## To applikasjoner, en løsning
+
+Melding om dødsfall til Folkeregisteret og melding om dødsårsak til Dødsårsaksregisteret. En løsning for alle leger i Norge. Cirka 40000 dødsfall meldt av cirka 20000 leger hvert år.
+
 {{< gallery caption-effect="fade" >}}
   {{< beautifulfigure thumb="-thumb" src="/portfolio/img/fhi-melding-doedsfall-01.png" caption="" alt="">}}
   {{< beautifulfigure thumb="-thumb" src="/portfolio/img/fhi-melding-doedsfall-02.png" caption="" alt="">}}
