@@ -9,6 +9,10 @@ title = 'Vy Team kjøretøy'
     position = "center middle"
 +++
 
+## Togpartner og Togkommunikasjon
+
+Togpartner er en webapp for de som rengjør og vedlikeholder togene. Både planleggere og de som faktisk vasker og skrur. Togkommunikasjon er for datautsending til togene og innhenting av sensordata fra togene.
+
 {{< gallery caption-effect="fade" >}}
   {{< beautifulfigure thumb="-thumb" src="/portfolio/img/vy-togkom-doerer.png" caption="" alt="">}}
   {{< beautifulfigure thumb="-thumb" src="/portfolio/img/vy-togkom-annonseringsregler.png" caption="" alt="">}}
@@ -27,7 +31,3 @@ title = 'Vy Team kjøretøy'
   {{< beautifulfigure thumb="-thumb" src="/portfolio/img/vy-togpartner-tognr-kjoeretoey.png" caption="" alt="">}}
   {{< beautifulfigure thumb="-thumb" src="/portfolio/img/vy-togpartner-togsett-turnering.png" caption="" alt="">}}
 {{< /gallery >}}
-
-## Togpartner og Togkommunikasjon
-
-Togpartner er en webapp for de som rengjør og vedlikeholder togene. Både planleggere og de som faktisk vasker og skrur.
